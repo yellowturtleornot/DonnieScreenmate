@@ -23,9 +23,10 @@ If you want Donnie to greet you every time you turn on your PC, add him to Start
 --- HOW TO ADD TO WINDOWS STARTUP ---
 To make Donnie launch automatically when you turn on your PC:
 1. Right-click on the Donnie.exe file and select "Create shortcut".
+   IMPORTANT: Do NOT move the Donnie.exe file itself into Startup, and do not delete the _internal folder next to it — you must move the SHORTCUT!
 2. Press Win + R on your keyboard.
 3. In the opened window, type: shell:startup and press Enter.
-4. Drag the created shortcut into the opened folder. Done!
+4. Drag the created SHORTCUT into the opened folder. Done!
 
 --- WHERE SAVES ARE STORED ---
 Your progress and settings are saved automatically in your Windows user system folder. When a new version comes out, simply download and run it — all your progress will be preserved!
