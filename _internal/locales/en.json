@@ -1,0 +1,75 @@
+{
+  "menu_title": "Donnie Control",
+  "btn_talk": "Talk",
+  "btn_timer": "Timer",
+  "btn_stop_timer": "Stop Timer",
+  "btn_start_timer": "Start Timer",
+  "btn_cancel_timer": "Cancel Timer",
+  "btn_reminders": "Reminders ▸",
+  "reminder_break": "Break Reminder",
+  "reminder_water": "Water Reminder",
+  "reminder_sleep": "Sleep Reminder",
+  "btn_stand_calm": "Stand Calm",
+  "btn_watch_movie": "Watch Movie",
+  "btn_work_computer": "Work on Computer",
+  "btn_auto_mode": "Auto Mode",
+  "chk_random_talk": "Random phrases",
+  "timer_ask": "Donnie: How many minutes?",
+  "lang_btn": "Language: EN",
+  "tray_toggle": "Show / Hide Donnie",
+  "tray_lang": "Language: EN -> RU",
+  "tray_restart": "Restart",
+  "tray_quit": "Exit",
+  "timer_started": "Got it! Set a timer for {minutes} min. Won't distract you!",
+  "time_out_msg": "Time's up! Great job, time for a break!",
+  "timer_stop": "Timer stopped!",
+  "dialogs": {
+    "start": {
+      "text": "Hey! I'm right in the middle of calibrating sensors. Something up?",
+      "options": [
+        ["How are you?", "how_are_you"],
+        ["What are you watching?", "what_watching"],
+        ["Bye!", "close"]
+      ]
+    },
+    "how_are_you": {
+      "text": "Everything's great, except Leo touched my blueprints again.",
+      "options": [
+        ["Got it, won't bother you.", "close"],
+        ["Ask something else", "start"]
+      ]
+    },
+    "what_watching": {
+      "text": "Analyzing the code of this desktop. Quite a fascinating architecture!",
+      "options": [
+        ["Keep up the good work!", "close"],
+        ["Back", "start"]
+      ]
+    }
+  },
+  "random_phrases": {
+    "happy": [
+      "My calculations are spot-on today!",
+      "A great day for inventions!",
+      "All systems operating at 100%!",
+      "Should we order a pizza? My treat... theoretically."
+    ],
+    "neutral": [
+      "Wonder what you're working on right now...",
+      "Calibrating desktop sensors...",
+      "Don't forget to blink and stretch your back!",
+      "Hmm, where did I leave my wrench..."
+    ],
+    "mad": [
+      "Don't touch my blueprints!",
+      "Annoyance levels reaching critical mass...",
+      "If I get dropped one more time, I'm hacking your browser.",
+      "I urgently need coffee. Or silence."
+    ]
+  },
+  "alert_phrases": {
+    "water": "Warning! Water levels critically low! Time to hydrate!",
+    "break": "Warning! My back is getting stiff. Time to stretch!",
+    "sleep": "Warning! I think it's time to go to sleep!"
+  }
+}
